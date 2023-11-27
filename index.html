@@ -2,27 +2,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1920, initial-scale=1.0">
-  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/static.css">
+  <link rel="stylesheet" href="style/dynamic.css">
   <title>ОНУ | Комп'ютерні науки</title>
 </head>
 <body>
   <header>
-    <div class="nav-bar">
+    <div class="navbar">
       <a href="./index.html"><img src="img/logo.png" alt="logo"></a>
       <nav>
           <ul>
-              <li><a href="./about.html">Про спеціальність</a></li>
-              <li><a href="./academics.html">Навчання</a></li>
-              <li><a href="./research.html">Наука</a></li>
-              <li><a href="./news.html">Новини</a></li>
-              <li><a href="./contact.html">Зворотній зв'язок</a></li>
+              <li>
+                <a href="./about.html">
+                  <h3>Про спеціальність</h3>
+                </a>
+                <div class="dropdown-menu">
+                  <div class="row">
+                    <div class="col">
+                      <h3>Заголовок 1</h3>
+                      <ul>
+                        <li>Пункт 1</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <h3>Заголовок 2</h3>
+                      <ul>
+                        <li>Пункт 2</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <h3>Заголовок 3</h3>
+                      <ul>
+                        <li>Пункт 3</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="./academics.html">
+                  <h3>Навчання</h3>
+                </a>
+                <div class="mega-menu"></div>
+              </li>
+              <li>
+                <a href="./research.html">
+                  <h3>Наука</h3>
+                </a>
+                <div class="mega-menu"></div>
+              </li>
+              <li>
+                <a href="./news.html">
+                  <h3>Новини</h3>
+                </a>
+                <div class="mega-menu"></div>
+              </li>
+              <li>
+                <a href="./contact.html">
+                  <h3>Зворотній зв'язок</h3>
+                </a>
+                <div class="mega-menu"></div>
+              </li>
           </ul>
+      </nav>
       </nav>
     </div>
   </header> 
 
   <main>
-    <div class="blocks">
+    <div class="block-container">
         <div class="block about">
           <h1>Про спеціальність</h1>
           <div class="homepage-description">

@@ -1,0 +1,107 @@
+/******************************/
+/*        BASIC STYLES        */
+/******************************/
+
+/* Using Normalize.css (consistent elements rendering) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* Import custom fonts (like HelveticaNeueCyr) */
+@import url(./fonts.css);
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeueCyr", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*******************************/
+/*   WEBSITE-SPECIFIC STYLES   */
+/*******************************/
+
+/*         */
+/* General */
+/*         */
+
+header,
+main,
+footer {
+  padding: 1rem 0;
+}
+
+.block-container,
+.about-container,
+.academics-container,
+.research-container,
+.news-container,
+.contact-container,
+.navbar {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/*                */
+/* Navigation Bar */
+/*                */
+
+.navbar {
+  display:flex;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+/* Links */
+.navbar > a {
+  max-width: 20%;
+  justify-self: start;
+}
+
+.navbar > a > img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  padding: 0 1rem;
+  align-items: end;
+}
+
+nav > ul {
+  display:flex;
+  margin: 0;
+  padding: 0;
+  align-items: end;
+  justify-content: end;
+  list-style-type: none;
+  height: 60%;
+}
+
+nav > ul > li {
+  padding: 0;
+  margin: 0 1rem;
+}
+
+nav > ul > li > a {
+  height: 70%;
+  display: inline-block;
+  text-decoration-line: none;
+  color: #2B5593;
+  border-bottom: .5em #fff solid;
+}
+
+nav > ul > li h3 {
+  margin: 0;
+}
+
+/*                       */
+/* Main content (blocks) */
+/*                       */
+
+main {
+  padding: 1.5rem 0;
+}
